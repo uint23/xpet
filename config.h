@@ -7,18 +7,20 @@
 #define PET_ASSET_DIR   "/home/uint/programming/c/xpet/pets/neko"
 
 #define MULTIPLE_PETS   False   /* using multiple pets will disable you from using keybinds */
+#define PETS            1       /* number of pets on screen                                 */
 
-#define PET_SPEED       10      /* pixels per frame - constant movement speed */
-#define PET_REFRESH     200     /* ms between movement updates (16ms=60fps) */
-#define FRAME_DURATION  200     /* ms between frames (can be overridden per frame) */
+#define PET_SPEED       20      /* pixels per frame - constant movement speed               */
+#define PET_REFRESH     200     /* ms between movement updates (16ms=60fps)                 */
+#define FRAME_DURATION  200     /* ms between frames (can be overridden per frame)          */
+#define UNFREEZE_DELAY  2000    /* ms before pet walks again after unfreezing               */
 
-#define WANDER_MIN_WAIT 16000   /* min ms to wait at destination */
-#define WANDER_MAX_WAIT 32000   /* max ms to wait at destination */
-#define WANDER_MARGIN   100     /* pixels from screen edge */
+#define WANDER_MIN_WAIT 16000   /* min ms to wait at destination                            */
+#define WANDER_MAX_WAIT 32000   /* max ms to wait at destination                            */
+#define WANDER_MARGIN   100     /* pixels from screen edge                                  */
 
-#define SLEEP_DELAY     5000    /* ms frozen before falling asleep */
-#define HAPPY_DURATION  3000    /* ms to stay happy after being clicked */
-#define SPEECH_DURATION 3000    /* ms to show speech bubble */
+#define SLEEP_DELAY     5000    /* ms frozen before falling asleep                          */
+#define HAPPY_DURATION  3000    /* ms to stay happy after being clicked                     */
+#define SPEECH_DURATION 3000    /* ms to show speech bubble                                 */
 
 /* speech bubble sizing */
 #define SPEECH_PAD_X    8
