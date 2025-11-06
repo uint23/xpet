@@ -18,7 +18,7 @@ build with:
 make
 ```
 
-you can edit `config.h` before building to change behavior or key bindings.
+#### you SHOULD edit `config.h` before building to change default behaviour or key bindings. this includes changing the pet default directory
 
 Run with:
 
