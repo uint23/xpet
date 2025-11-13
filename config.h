@@ -4,7 +4,7 @@
 
 #include "xpet.h"
 
-#define PET_ASSET_DIR   "/home/uint/programming/c/xpet/pets/neko"
+#define PET_ASSET_DIR   "./xpet/pets/neko"
 
 #define PET_SPEED       20      /* pixels per frame - constant movement speed               */
 #define PET_REFRESH     200     /* ms between movement updates (16ms=60fps)                 */
