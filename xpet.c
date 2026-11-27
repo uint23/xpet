@@ -83,6 +83,7 @@ void create_window(void)
 		dpy, pet.window,
 		ButtonPressMask | ButtonReleaseMask | PointerMotionMask
 	);
+	XSetClassHint(dpy, pet.window, &(XClassHint){"xpet", "Xpet"});
 	XMapWindow(dpy, pet.window);
 	XClearWindow(dpy, pet.window);
 	XRaiseWindow(dpy, pet.window);
