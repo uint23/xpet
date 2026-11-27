@@ -20,7 +20,7 @@ MAN = xpet.1
 
 all: ${BIN}
 
-${BIN}: ${SRC}
+${BIN}: ${SRC} xpet.h config.h
 	${CC} ${CFLAGS} ${SRC} -o ${BIN} ${LDFLAGS}
 
 clean:
